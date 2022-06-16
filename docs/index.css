@@ -4,12 +4,14 @@ body{
     margin: 0;
     padding: 0;
     font-size: 15px;
-    
+    height: 100vh;
 }
 
 
 .main{
-    margin: 25vh auto;
+    margin: auto auto;
+    margin-top: 15vh !important;
+    margin-bottom: 15vh !important;
     display: flex;
     flex-direction: row;
     width: 70vw;
@@ -70,6 +72,10 @@ h2{
     padding-right: 20px;
     color: hsl(184, 100%, 22%);
 }
+.btn2{
+ position: relative;
+ margin-top: 20%;
+}
 .btn3 button{
     background-color: white;
     border-radius: 20px; 
@@ -81,14 +87,14 @@ h2{
     color: hsl(179, 100%, 13%);
 }
 
-.btn,.btn2,.btn3{
+.btn,.btn3{
     margin-top: 20%;
 }
 
-@media (min-device-width: 991px) and (max-device-height: 1400px) { 
-    /* .btn3{
-        margin-top: 25%;
-    } */
+@media (min-device-width: 280px) and (max-device-height: 567px) { 
+    .main{
+        width: 90vw !important;
+    }
 
 }
 
