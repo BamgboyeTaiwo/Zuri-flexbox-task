@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display&family=Inter&family=Lexend+Deca&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    font-size: 15px;
+    
+}
+
+
+.main{
+    margin: 25vh auto;
+    display: flex;
+    flex-direction: row;
+    width: 70vw;
+    border-radius: 5px 5px 5px 5px ;
+}
+.one{
+    background-color: hsl(31, 77%, 52%);
+    position: relative;
+    width: 33%;
+    border-radius: 15px 0px 0px 15px ;
+    padding: 5%;
+    padding-bottom: 6%;
+}
+
+.content{
+    color: hsla(0, 0%, 100%, 0.75);
+    font-family: 'Lexend Deca', sans-serif;;
+}
+h2{
+    color: hsla(0, 0%, 100%, 0.75);
+    font-weight: bold;
+    font-family: 'Big Shoulders Display', "cursive";
+
+}
+.two{
+    background-color: hsl(184, 100%, 22%);
+    position: relative;
+    width: 33%;
+    padding: 5%;
+
+
+}
+.three{
+    background-color: hsl(179, 100%, 13%);
+    position: relative;
+    width: 34%;
+    padding:5% ;
+    border-radius: 0px 15px 15px 0px ;
+    padding-bottom: 6%;
+}
+.btn button{
+    background-color: white;
+    border-radius: 20px; 
+    border: 1px solid white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: hsl(31, 77%, 52%);
+}
+.btn2 button{
+    background-color: white;
+    border-radius: 20px; 
+    border: 1px solid white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: hsl(184, 100%, 22%);
+}
+.btn3 button{
+    background-color: white;
+    border-radius: 20px; 
+    border: 1px solid white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: hsl(179, 100%, 13%);
+}
+
+.btn,.btn2,.btn3{
+    margin-top: 20%;
+}
+
+@media (min-device-width: 991px) and (max-device-height: 1400px) { 
+    /* .btn3{
+        margin-top: 25%;
+    } */
+
+}
+
+
+/* ## Colors
+
+### Primary
+
+Bright orange: hsl(31, 77%, 52%)
+Dark cyan: hsl(184, 100%, 22%)
+Very dark cyan: hsl(179, 100%, 13%)
+
+### Neutral
+
+Transparent white (paragraphs): hsla(0, 0%, 100%, 0.75)
+Very light gray (background, headings, buttons): hsl(0, 0%, 95%)
+
+## Typography
+
+### Body Copy
+
+- Font size: 15px
+
+### Font
+
+- Family: [Lexend Deca](https://fonts.google.com/specimen/Lexend+Deca)
+- Weights: 400
+
+- Family: [Big Shoulders Display](https://fonts.google.com/specimen/Big+Shoulders+Display)
+- Weights: 700 */
